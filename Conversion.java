@@ -20,6 +20,10 @@ public class Conversion
         currencyCodes.put(5, "GBP"); //Great Britain
     }
 
+    /**
+     * make single method for all conversions
+     * use if else statements?
+     */
     public double convertAUS(double from)
     {
         double amount = 0;
