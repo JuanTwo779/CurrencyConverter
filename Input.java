@@ -6,8 +6,14 @@ public class Input
     {
         Scanner console = new Scanner(System.in);
         System.out.println(message);
-        //second way to do it
         int input = Integer.parseInt(console.nextLine());
         return input;
+    }
+
+    public double acceptDoubleInput(String message)
+    {
+        Scanner console = new Scanner(System.in);
+        System.out.println(message);
+        return Double.parseDouble(console.nextLine());
     }
 }

@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.text.DecimalFormat;
 
 public class Conversion
 {
@@ -17,6 +18,12 @@ public class Conversion
         currencyCodes.put(3, "PHP"); //Philippines
         currencyCodes.put(4, "USD"); //United States
         currencyCodes.put(5, "GBP"); //Great Britain
+    }
+
+    public double convertAUS(double from)
+    {
+        double amount = 0;
+        return amount;
     }
 
 

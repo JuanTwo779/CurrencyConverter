@@ -10,9 +10,9 @@ public class Messages
     }
 
 
-    public String Menu()
+    public void Menu()
     {
-        return "1:AUD (Australian Dollar) \t 2:MXN (Mexican Peso) \t 3:PHP (Filipino Peso)" +
-                "\n 4:USD (United States Dollar \t 5:GBP (Great British Pound";
+        System.out.println("1:AUD (Australian Dollar) \t 2:MXN (Mexican Peso) \t 3:PHP (Filipino Peso)" +
+                "\n4:USD (United States Dollar \t 5:GBP (Great British Pound)");
     }
 }
